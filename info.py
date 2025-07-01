@@ -79,15 +79,15 @@ CAPTION_LANGUAGES = ["Bhojpuri", "Hindi", "Bengali", "Tamil", "English", "Bangla
 VERIFY = bool(environ.get('VERIFY', True))  # Verification On (True) / Off (False)
 DEENDAYAL_VERIFY_EXPIRE = int(environ.get('DEENDAYAL_VERIFY_EXPIRE', 24))  # Add time in hours
 DEENDAYAL_VERIFIED_LOG = int(environ.get('DEENDAYAL_VERIFIED_LOG', '-1002132361598'))  # Log channel id (make sure bot is admin)
-HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/silenthours_backup')  # How to open tutorial link for verification
+HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/silenthours_backup/43')  # How to open tutorial link for verification
 
 # ============================
 # Link Shortener Configuration
 # ============================
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'get2short.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', '043476b56eac957511d628038a99236d00acdf24')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/silenthours_backup')  # Tutorial video link for opening shortlink website
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'linkshortify.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'a2714d0b98a85e6b10044aad647f5fe45a53d4be')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/silenthours_backup/43')  # Tutorial video link for opening shortlink website
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', False))
 
 # ============================
@@ -95,7 +95,7 @@ IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', False))
 # ============================
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/silentmoviessearch')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/silenthours_backup')
-OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/silent_amv')
+OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/cu_tie_trisha')
 DEENDAYAL_MOVIE_UPDATE_CHANNEL_LNK = environ.get('DEENDAYAL_MOVIE_UPDATE_CHANNEL_LNK', 'https://t.me/silenthours_movies')
 OWNERID = int(os.environ.get('OWNERID', '2056329003'))  # Replace with the actual admin ID
 
